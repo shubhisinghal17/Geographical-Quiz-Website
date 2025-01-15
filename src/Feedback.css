@@ -1,0 +1,142 @@
+.feedback-page-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #bdc0c4, #91b5e5);
+    height: 80dvh;
+
+}
+.feedback-page-class.dark-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1e3048, #02142b);
+    height: 80dvh;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 0.5px solid whitesmoke;
+    margin: 2rem;
+}
+.form-container.dark-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #0c0e12, #37659e);
+    border: 0.5px solid whitesmoke;
+    margin: 2rem;
+}
+.form-container:hover{
+    box-shadow: 10px 5px 5px whitesmoke;
+    border: 2px solid white;
+
+}
+.user-name-class, .email-class, .altername-email-class, .dropdown-class, .button-class, .user-topic-container, .checkbox-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    width: 70%;
+}
+.users-topic-input{
+    max-width: 100%;
+    border: 2px solid black;
+}
+#topics{
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.input-field{
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+}
+.button-element{
+    align-self: center;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+}
+.button-element:hover{
+    background-color: white;
+    border: 3px solid #1b2a2c;
+    box-shadow: 2px 2px 2px whitesmoke;
+    
+}
+.users-topic-input-label{
+    content: "";
+
+}
+
+.name-label.dark-background, .mail-label.dark-background, .checkbox-label.dark-background, .alt-mail-label.dark-background, .main-topic-label.dark-background, .subtopic-label.dark-background{
+    color: white;
+}
+
+@media (min-width:40rem){
+    .feedback-page-class{
+        height: 70vh;
+    
+    }
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        height: 80%;
+        
+    }
+    .user-name-class, .email-class, .altername-email-class, .dropdown-class, .button-class, .user-topic-container, .checkbox-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: flex-start;
+        margin: 1rem;
+        align-self: auto;
+        align-items: center;
+        font-size: 1rem;
+ 
+    }
+
+    .button-class{
+        justify-content: center;
+
+    }
+    .input-field{
+        width:60%;
+
+
+    }
+    .button-element{
+        align-self: center;
+        border-radius: 20px;
+        border: 1px solid whitesmoke;
+
+
+    }
+    #topics{
+        width: 80%;
+    }
+    #dropdown-label{
+        width: 80%;
+    }
+    .user-topic-container{
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .users-topic-input{
+        width: 70%;
+    }
+    .form-items{
+        flex: 1;
+
+    }
+    
+}

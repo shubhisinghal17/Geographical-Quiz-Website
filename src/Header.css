@@ -1,0 +1,144 @@
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    background: linear-gradient(45deg, #f0f0f0, #00d3ff);
+}
+
+.header.dark-background {
+    background: linear-gradient(45deg, #aab5c9, #294576);
+
+}
+
+.avatar-and-theme-container {
+    display: flex;
+    grid-column: 1/span 2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    grid-column: 1 / span 1;
+}
+
+.heading-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    grid-column: 2 / span 1;
+}
+
+.header-title {
+    align-self: center;
+}
+
+.header-nav {}
+
+
+.dark-theme-label::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-image: url(/dark-mode.png);
+}
+
+.light-theme-label {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-image: url(/light-mode.png);
+
+}
+
+.avatar-button {
+
+    background-color: #183755;
+    color: white;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 1rem;
+
+
+}
+
+.avatar-button:hover {
+    background-color: grey;
+    color: white;
+    height: 2rem;
+    border-radius: 20px;
+
+}
+
+.avatar-name-container {
+    font-size: 2rem;
+}
+
+.skiplink {
+    position: absolute;
+
+    left: -100000000px;
+}
+
+.skiplink:focus {
+    left: 50%;
+}
+
+
+
+@media (min-width:40rem) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .theme-container {
+        display: flex;
+        flex-direction: row;
+        margin-right: 2rem;
+    }
+
+    .dark-container,
+    .light-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0.3rem;
+    }
+
+    .dark-theme-image,
+    .light-theme-image {
+        margin: 0.5rem;
+    }
+
+    .header-nav {
+
+        width: 100%;
+    }
+
+
+}

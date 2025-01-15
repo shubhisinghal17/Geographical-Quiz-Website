@@ -1,0 +1,143 @@
+.independent-card-container{
+    display: flex;
+    flex-direction: column;
+    grid-column: span 12;
+    align-items: center;
+    border: solid #235884 0.25rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    background-color: #FFFFFF;
+    
+}
+.independent-card-container.dark-background-card{
+    background-color: #0d1b2a;
+    
+}
+.independent-card-container.dark-background-card:hover{
+    background-color: #415a77;
+    
+}
+.independent-card-container.dark-background-card:hover .detailed-answer.dark-background-card{
+    color: white;
+
+    
+}
+.independent-card-container:hover{
+    background-color: #D4EBF8;
+    box-shadow: 0.75rem 0.75rem 0.25rem #e0e1dd;
+}
+.card-image{
+    display: inline-block;
+    width: 95%;;
+    margin: 0.5rem;
+    border-radius: 2rem;
+}
+.card-options{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.independent-option{
+    margin: 0.5rem;
+    border-radius: 10rem;
+    font-size: 1rem;
+    background-color:#c5dbee;
+    color: #0b0909;
+}
+
+.independent-option:hover{
+    background-color:#1F509A;
+    color: #f6f6f6;
+}
+.independent-option:focus{
+    background-color:#1F509A;
+    color: #f6f6f6;
+}
+.correct-answer{
+    background-color:#47663B;
+    color: white;
+}
+.wrong-answer{
+    background-color: #932A42;
+    color: #FFFFFF;
+}
+.non-answer{
+    background-color: #D4EBF8;
+}
+.card-fact{
+    display: inline-block;
+    width: 90%;
+    margin: 1rem;
+}
+.detailed-answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.detailed-answer.dark-background-card{
+    color: white;
+
+}
+.answer{
+    font-size: 2rem;
+}
+
+@media (min-width:40rem){
+    .independent-card-container{
+        display: flex;
+        flex-direction: column;
+        grid-column: span 6;
+        align-items: center;
+        border: solid black 0.25rem;
+        border-radius: 2rem;
+        margin: 1rem;
+        overflow: hidden;
+    }
+    .card-options{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .independent-option{
+        grid-column: span 6;
+    }
+    .independent-card-container.card-expanded{
+        height: 560px;
+    }
+
+    
+
+}
+
+@media (min-width:60rem){
+    .independent-card-container{
+        display: flex;
+        flex-direction: column;
+        grid-column: span 4;
+        align-items: center;
+        border: solid black 0.25rem;
+        border-radius: 2rem;
+        margin: 1rem;
+        overflow: hidden;
+    }
+    .card-options{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .independent-option{
+        grid-column: span 6;
+    }
+    .independent-card-container.card-expanded{
+        height: 600px;
+        font-size: 1rem;
+
+    }
+
+    
+
+}

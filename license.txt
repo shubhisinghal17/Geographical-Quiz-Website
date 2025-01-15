@@ -1,0 +1,23 @@
+All the image below are from unsplash.com and the license is as follows 
+License: https://unsplash.com/license
+
+London: https://unsplash.com/photos/ocean-near-park-during-daytime-sHLhv8971iE
+Germany: https://unsplash.com/photos/brandenburg-gate-germany-fv0yV5-Pbjc
+France: https://unsplash.com/photos/people-walking-inside-building-during-daytime-kZU3_HAT9WA
+Australia: https://unsplash.com/photos/field-of-rocks-gF0IZVVKrD0
+Russia: https://unsplash.com/photos/brown-and-gray-concrete-building-during-daytime-L4jrg4c7928
+Pisa: https://unsplash.com/photos/leaning-tower-of-pisa-in-pisa-italy-leaning-tower-of-pisa-known-worldwide-for-its-unintended-tilt-and-famous-travel-destination-of-italy-it-is-situated-near-the-pisa-cathedral-_2TxDlg6Bbo
+Norway: https://unsplash.com/photos/northern-lights-over-snow-capped-mountian-LtnPejWDSAY
+Ireland:https://unsplash.com/photos/rock-formation-near-sea-under-white-sky-NUiQpGnj9rI 
+
+
+
+
+All the icons have been taken from "https://fonts.google.com/icons" 
+License for the following icons: https://fonts.google.com/knowledge/glossary/licensing
+
+arrow-down.png : https://fonts.google.com/icons?selected=Material+Symbols+Outlined:keyboard_arrow_down:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=arrow+down&icon.size=24&icon.color=%235f6368
+arrow-up.png : https://fonts.google.com/icons?selected=Material+Symbols+Outlined:keyboard_arrow_up:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=arrow+up&icon.size=24&icon.color=%235f6368
+dark-mode.png : https://fonts.google.com/icons?selected=Material+Symbols+Outlined:dark_mode:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=moon&icon.size=24&icon.color=%235f6368
+light-mode.png : https://fonts.google.com/icons?selected=Material+Symbols+Outlined:brightness_5:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=moon&icon.size=24&icon.color=%235f6368
+hamburger-menu: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:menu:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=menu&icon.size=24&icon.color=%235f6368

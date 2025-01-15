@@ -1,0 +1,123 @@
+.main-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.main-modal-form-container.dark-main-modal{
+    background: #778da9;
+}
+.main-modal-container.dark-main-modal::backdrop{
+    background-color: rgb(0 0 0/0.8);
+} 
+.main-modal-container::backdrop{
+    background-color: rgb(0 0 0/0.8);
+}
+
+
+.main-modal-container.hide-main-modal{
+    display: none;
+}
+
+.main-modal-form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.main-modal-avatar-container,
+.main-modal-email-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 80%;
+    align-items: center;
+}
+
+.main-modal-avatar-container label,
+.main-modal-email-container label {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+
+.input-field-main-modal{
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input-field-main-modal:focus {
+    border-color: #007BFF;
+}
+
+
+.main-modal-avatar-container p {
+    font-size: 1rem;
+    color: #d9534f;
+    margin-top: 0.25rem;
+}
+.main-modal-avatar-container.dark-main-modal p {
+    font-size: 1rem;
+    color: #521614;
+    margin-top: 0.25rem;
+}
+
+
+.main-modal-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.main-modal-button:hover {
+    background-color: #0056b3;
+}
+.main-modal-button.dark-main-modal{
+    background-color: #333;
+}
+.main-modal-button.dark-main-modal:hover{
+    background-color: #05070b;
+}
+@media (min-width: 40rem) {
+
+    .main-modal-form-container {
+        padding: 3rem;
+        gap: 1.5rem;
+    }
+
+
+    .input-field-main-modal {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .main-modal-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
+}
