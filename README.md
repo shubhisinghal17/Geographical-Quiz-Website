@@ -19,7 +19,8 @@ Once the above steps have been followed,  web app can be viewed by running the f
 1. npm install
 2. npm run build
 3. npx serve -s dist
-   Then something similar will show:
-   <img width="460" alt="image" src="https://github.com/user-attachments/assets/febd131b-c580-46a7-9c34-42668a265e02" />
-   Type "http://localhost:3000" in your browser to view the website or whatever is showing against "Local" in the terminal
+
+Then something similar will show:
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/febd131b-c580-46a7-9c34-42668a265e02" />
+Type "http://localhost:3000" in your browser to view the website or whatever is showing against "Local" in the terminal
 
